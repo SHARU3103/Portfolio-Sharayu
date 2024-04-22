@@ -1,0 +1,1131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #e5ecfb;
+   
+font-family: 'Baloo Bhai 2', sans-serif;
+}
+
+.header{
+      height: 92vh;
+      /* border: 2px solid black; */
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      /* background-color: orange; */
+      /* background-color: black; */
+      /* background-color: orange; */
+      /* background-color: #d8e2f9; */
+      
+      
+}
+.header h3{
+    font-size: 4rem;
+   /* color:  #0984ad; */
+   color: orange;
+   font-weight: 800;
+   
+   font-family: 'Poppins', sans-serif;
+}
+
+#prath{
+    color:black;
+}
+
+#hamss{
+    /* transition: transform 0.4s ease; */
+    
+}
+#hamss:hover{
+    /* transform: rotate(45deg); */
+    /* color: blue; */
+}
+
+#links{
+    font-size: 1.1rem;
+    font-family:sans-serif;
+    font-weight: 600;
+}
+.names button:hover{
+   background-color:black;
+}
+
+.names button{
+    /* margin-top: 40px; */
+    /* margin-top: 126px; */
+}
+
+
+.logo i{
+    font-size: 1.7rem;
+    /* display: no; */
+    display: none;
+    position: absolute;
+    right: 20px;
+    /* text-align: center; */
+    top: 15px;
+    /* margin-right: 1px; */
+}
+
+.change{
+    color: black;
+    /* 362FD9 */
+    font-size: 2.3rem;
+}
+
+#prathameshamundkar p{
+     color: #002057;
+}
+.text-change p{
+    /* color: #002057; */
+    color: black;
+    font-size: 1.9rem;
+}
+.header h3 p{
+    font-size: 2.2rem;
+}
+
+.header button{
+    padding: 10px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    border: none;
+    background-color: #1858c7;
+    margin-top: 10px;
+    
+    
+}
+.header button a{
+    color: white;
+    text-decoration:none;
+    font-size: 0.9rem;
+    
+}
+.navbar{
+
+    /* border: 2px solid black; */
+    background-color: #fff;
+    
+    box-shadow: 0px 5px 10px rgba(7, 0, 9, 0.2);
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-around;
+    align-items: center;
+    height: 65px;
+}
+
+.homes{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-left: 286px;
+   
+}
+.homes a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+.links img{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    margin-top: 20px;
+    /* border: 1px solid rgb(3, 3, 8); */
+}
+.homes a:hover{
+    color: #011aff;
+}
+
+.image img{
+    width: 300px;
+    height: 300px;
+    /* border-radius: 50%; */
+}
+
+.links li{
+    text-decoration: none;
+    margin-top: 10px;
+    list-style: none;
+    /* border: 2px solid black; */
+    padding: 10px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    /* background-color: #10319f; */
+    /* background-color:  #0984ad; */
+    
+}
+
+.links{
+    margin-top: 10px;
+    display: flex;
+    gap: 30px;
+    
+}
+
+#prathamesh{
+    width: 325px;
+    height: 325px;
+    border-radius: 50%;
+}
+
+/* ---------------------------------about ------------------------------- */
+.mainabout{
+    /* background-color:#FFF8E3; */
+    background-color: #FAF6F0;
+    
+    /* background-color: #011aff; */
+    /* box-shadow: 0px 5px 10px rgba(7, 0, 9, 0.9); */
+
+    /* position: relative; */
+    /* border: 2px solid black; */
+    /* background-color: orange; */
+    /* border: 2px solid yellow;  dont give min-heigh, and if you give it border it heigh will get increase(if about div has padding 200px) and  
+    when you remove it it get decrease -->this is the issue you have to solve*/
+    min-height: 100vh;
+    /* box-sizing: border-box; */
+    padding-top: 20px;
+    padding-bottom: 30px;
+    /* padding-bottom: 1px; */
+}
+
+.personal_info h4{
+    color: #011aff;
+}
+.aboutme i{
+    font-size: 2.4rem;
+}
+.aboutme h1{
+    font-size: 3.2rem;
+}
+.about{
+    min-height: 80vh;
+    /* margin-bottom: 100px; */
+    /* margin: 100px 0; */
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    /* flex-wrap: wrap; */
+    padding: 20px;
+    /* position: absolute; */
+    top: 0px;
+    /* border: 2px solid black; */
+    /* margin: 20px 10%; */
+    padding: 20px 8%;      /*div made padding saglya bajuni dili ki content vr jail*/
+    /* height: 900px; */
+    /* margin-bottom: 40px; its parent div will not increase its heigh */
+}
+.about img{
+    min-height: 520px;
+    width: 360px;
+    box-shadow: 0px 5px 10px rgba(7, 7, 1, 0.6);
+}
+.aboutme{
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 800;
+    margin-top: 10px;
+    
+   
+}
+/* .des{
+    
+  
+    flex-direction: column;
+    gap: 16px;
+   
+    box-shadow: 0px 5px 10px rgba(7, 7, 1, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    
+
+}  */
+.des span{
+    /* color: #7303A7; */
+    /* color: #1a047e; */
+color: #3a18d2f5;
+}
+.des h3{
+    font-size: 2.7rem;
+    font-family: 'poppins', sans-serif;
+    font-weight: 800;
+}
+
+.des p{
+ /* font-size: 1.5rem; */
+ color:  #020133;
+ font-family: 'poppins', sans-serif;
+}
+
+.aboutme span{
+    /* color: #7303A7; */
+    color: #3a18d2f5;
+}
+
+
+.des button{
+    padding: 8px 25px;
+    border-radius: 4px;
+    border: none;
+    background-color: #3a18d2f5;
+    box-shadow: 0px 5px 10px rgba(7, 7, 1, 0.6);
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.des button:hover{
+    background-color: #1a047e;
+  
+}
+
+.des button a{
+    /* color: black; */
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+i{
+    margin-right: 10px;
+    font-size: 3rem;
+}
+
+.sks{
+    /* border: 2px solid black; */
+    background-color: rgba(0, 0, 0, 0.9) !important;
+   min-height: 130px;
+   width: 150px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   border-radius: 10px;
+   transition: transform 0.4s ease;
+}
+
+.sks:hover{
+    transform: scale(1.09);
+    cursor: pointer;
+}
+.sks h3{
+    color: white;
+}
+.skills{
+   /* width: 100vw; */
+   /* border: 2px solid purple; */
+   background: linear-gradient(to bottom, black, #4a00e0);
+   display: flex; 
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   min-height: 100vh;
+   /* padding: 0 200px; */
+   /* margin:0  auto ; */
+   
+   
+}
+
+#skillsss i{
+    font-size: 2.4rem;
+    color: black;
+    margin-right: 14px;
+}
+.skillsss{
+    font-size: 2.6rem;
+}
+.sks img{
+    /* border: 2px solid black; */
+    height: 55px;
+    width: 55px;
+    margin-bottom: 10px;
+}
+.abilities{
+    /* border: 2px solid black; */
+   
+    background-color: black;
+    /* background: linear-gradient(to bottom, #1717e7, #00002c); */
+   width: 75%;
+   padding: 40px;
+    place-items: center; 
+   box-shadow: 0px 5px 10px rgba(7, 7, 7, 0.9);
+ 
+    /* align-items: center; */
+    /* height: 400px; */
+    /* width: 50%; */
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+
+    
+}
+
+.skills h2{
+    font-size: 2rem;
+    margin-top: 80px;
+    font-family: 'Poppins', sans-serif;
+    color: yellow;
+}
+
+/* ----------education----------- */
+
+.education{
+    /* height: 80vh; */
+    /* border: 2px solid black; */
+    /* background-color: orange; */
+}
+.school{
+   /* border: 2px solid black; */
+   padding: 10px;
+   /* margin-bottom: 800px; */
+}
+.engi{
+    /* border: 2px solid black;     */
+    /* margin-top: 100px; */
+    /* margin-bottom: 800px; */
+    text-align: start;
+    padding: 20px;
+    margin: 15px;
+    background-color:grey;
+    border-radius: 8px;
+    box-shadow: 0px 5px 10px rgba(7, 7, 7, 0.9);
+    transition: transform 0.4s ease;
+    /* border: 2px solid blue; */
+}
+
+.engi:hover{
+    transform: scale(1.06);
+
+    cursor: pointer;
+}
+
+
+.school{
+    /* margin-top: 100px;
+    margin-bottom: 50px; */
+    /* display: flex; */
+    width: 50%;
+    /* align-items: center; */
+    margin: 0 auto;
+    /* border: 2px solid black; */
+    /* border: 2px solid black; */
+    margin-bottom: 50px;
+    
+}
+
+.education h1{
+    text-align: center;
+    /* margin-top: 0px; */
+    padding-top: 30px;
+    font-size: 2.4rem;
+    font-family: 'Poppins', sans-serif;
+ 
+    
+}
+
+.education span{
+    color: #7303A7;
+}
+
+#leetcode{
+    height: 40px;
+    width: 50px;
+    border-radius: 50%;
+}
+.perc{
+    /* color: #011aff; */
+    /* color: #7303A7; */
+    /* color: yellow; */
+    color: yellow;
+    font-size: 1.1rem;
+}
+.engi h2{
+    color: #7303A7;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* --------projects------------------------------------------------------------------------------- */
+.projects{
+    /* height: 2000px; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 70px;
+    gap: 20px;
+}
+
+.projects_div1{
+    width: 40vw;
+    /* height: 40vh; */
+    /* height: 0; */
+    /* border: 2px solid black; */
+    /* background: url("images/Screenshot 2024-01-20 220706.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+ 
+    background-position: center; */
+    /* margin-left: 10px; */
+    box-shadow: 0px 5px 10px rgba(7, 7, 7, 0.9);
+    margin: 10px;
+    overflow: hidden;
+    /* text-align: center; */
+    /* margin: auto auto; */
+   
+   /* opacity: 0; */
+   position: relative;
+
+}
+
+div.layer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid  yellow; */
+    /* opacity: 1; */
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    gap: 20px;
+    /* it will take full width and heigh acc to its parent container */
+    /* overflow:hidden; */
+    text-align: center;
+    /* background: linear-gradient(rgba(0,0,0,0.6), #ff004f); */
+    background-color: orange;
+    border-radius: 10px;
+    padding: 30px;
+    /* overflow: hidden;
+     */
+     /* opacity: 1; */
+    /* height: 0; */
+    /* opacity: 0; */
+    /* overflow: hidden; jar he baheer jat asel tr overflow:hidden parent la dyaych */
+    transform: translateY(100%);
+    /* 100% means directly go to the bottom */
+    /* border: 2px solid black; */
+    transition: all 0.3s linear;
+   
+}
+.layer h4{
+   /* color:linear-gradient(to bottom, #2121e2, #00002c); */
+   color: blue;
+   font-size: 1.67rem;
+   font-weight: 750;
+   text-decoration: underline;
+   /* font-family: sans-serif; */
+   font-family: 'Poppins', sans-serif;
+   /* display: block; */
+}
+
+.layer p{
+    font-family: 'Poppins', sans-serif;
+
+    font-size: 0.9rem;
+    font-weight:bold;
+}
+.projects_div1:hover > .layer {
+    /* transform: translateY(20%); */
+    transform: translateY(30px);
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.butns{
+    /* margin-top: 20px; */
+}
+.butns a{
+   height: 50px;
+   background-color: #fff;
+   width: 50px;
+   border-radius: 50%;
+   display: inline-block;
+   line-height: 64px; 
+   text-align: center;
+   margin: 0 19px;
+   /* margin-top: 10px; */
+   
+}
+
+.butns a i{
+    /* vertical-align: middle; */
+    /* border:2px solid black; */
+    /* font-size: 20px; */
+    /* gap: 10px; */
+    margin: 0 auto;         
+    /* used to center element vertically */
+  
+}
+.projects_div1 img{
+    width: 100%;
+}
+
+
+
+/* 
+.projects_div img{
+    height: 300px;
+    width: 300px;
+} */
+
+.projectss{
+    background: linear-gradient(to bottom, #2121e2, #00002c);
+   
+}
+
+.pr{
+    text-align: center;
+    padding: 30px;
+    font-family: 'Poppins', sans-serif;
+    color: yellow;
+    font-size: 2.4rem;
+}
+
+.projects h2{
+    opacity: 1;
+    color: black;
+    background-color: yellow;
+    text-align: center;
+
+}
+
+.projectss i{
+    font-size: 2rem;
+    margin-right: 10px;
+}
+
+.projectss span{
+    color: white    ;
+}
+
+
+
+/* ---------Experience--------------- */
+.experience{
+    min-height: 70vh;
+    display: flex;
+    
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: orange;
+    /* border: 2px solid black; */
+}
+
+#exp span{
+    color: darkblue;
+    /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.4rem;
+    /* position: absolute ; */
+}
+#exp h1{
+    font-size: 2.6rem;
+}
+.exper{
+    background-color: #0f46a2;
+    color: white;
+    width: 40%;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0px 5px 10px rgba(7, 7, 1, 0.3);
+    
+}
+
+.exper h3{
+    color:white ;
+    font-family:sans-serif;
+    font-size: 1.5rem;
+    font-weight: 750;
+    text-align: center;
+    padding-bottom: 15px;
+    text-decoration: underline;
+}
+
+.exper h4{
+    font-size: 1.3rem;
+    color: orange;
+}
+.exper p{
+    font-size: 0.9rem;
+}
+
+.experience{
+    /* text-align: center; */
+    
+}
+
+.experience i{
+    font-size: 2rem;
+}
+
+/* --------------------contact-us------------------ */
+.contact-us{
+    background-color: #e5ecfb;
+    /* background-color: background: #e5ecfb;; */
+    /* background-color: orange; */
+    padding: 20px;
+}
+
+.contact-us h2{
+    font-size: 2.4rem;
+    text-align: center;
+    padding-top: 30px;
+    /* margin-top: 30px; */
+}
+
+.contact-us i{
+    font-size: 2.4rem;
+
+}
+
+.contact-us span{
+    color: rgb(115, 3, 167);  
+    /* 7303A7 */
+}
+
+.contact-us{
+    /* display: fle; */
+    /* margin-bottom: 0px; */
+    /* border: 2px solid black; */
+    /* padding-bottom: 100px; */
+}
+
+.contact{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    /* border: 2px solid black; */
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    padding: 30px;
+    width: 85vw;
+    margin: 0px auto;
+    box-shadow: 0px 5px 10px rgba(7, 7, 1, 0.3);
+    border-radius: 20px;
+    /* margin-bottom: 200px; */
+    margin-top: 60px;
+    margin-bottom: 60px;
+    /* margin-bottom: 300px; */
+  
+}
+
+.contact img{
+    
+    height: 400px;
+    width: 470px;
+    /* box-shadow: 0px 5px 10px rgba(7, 7, 1, 0.3); */
+   
+}
+
+.contact input{
+    padding: 15px;
+    width: 400px;
+    margin: 8px;
+    border-radius: 8px;
+    text-decoration: none;
+    /* border: 1px solid black; */
+    font-size: 1rem;
+    background-color: #e5ecfb;
+    border: none;
+    box-shadow: 0px 5px 10px rgba(7, 7, 1, 0.3); 
+}
+
+
+#mess{
+    height: 100px;
+    
+}
+
+.btn{
+    text-align: center;
+    margin-top: 10px;
+   
+}
+.inputs i{
+    font-size: 1.6rem;
+}
+.btn button{
+    padding: 11px;
+    width: 150px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    /* border: 2px solid black; */
+    background-color: #421cecf5;
+
+}
+
+.btn :hover{
+    background-color: #0415af;
+    /* background-color: yellow; */
+    cursor: pointer;
+}
+
+.btn i{
+    font-size: 1.3rem;
+    margin-left: 10px;
+}
+
+
+
+/* --------------footer------------- */
+
+.main-footer{
+    /* border: 2px solid black; */
+    background: rgb(0, 1, 43);
+    color: white;
+    font-weight: normal;
+    /* position: relative; */
+    /* margin-top:10px  */
+    position: relative;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-top: 10px; */
+    /* gap: 100px; */
+}
+
+.basicinfo{
+    /* height: 200px; */
+    padding: 20px;
+    width: 400px;
+    /* border: 2px solid wheat; */
+    display: flex;
+    justify-content: center;
+    /* position: absolute; */
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 450px;
+   
+}
+.basicinfo h3{
+    /* line-height: 40px; */
+    font-size: 2.2rem;
+    color: orange;
+    /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-weight: 500;
+}
+.basicinfo h5{
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+
+}
+#ft{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#ft i{
+    font-size: 1.1rem;
+}
+
+.contact-info i{ 
+    font-size: 1.2rem;
+    line-height: 10px;
+}
+
+#line{
+    /* border: 2px solid white; */
+}
+
+
+#top{
+    position: absolute;
+    right: 40px;
+    top: 260px;
+    /* border: 2px solid black; */
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    /* Center horizontally IMP*/
+    line-height: 75px;  /* Center vertically */
+    /* background-color: #011aff; */
+    background-color: orange;
+}
+
+#top i{
+    font-size: 2.4rem;
+    /* line-height: 60px; */
+   /* margin: 0 auto; */
+    color:#00002c;
+    margin-left: 10px;
+
+    /* margin: 0 auto; */
+    /* used to center the element inside its parent */
+    /* padding: 10px; */
+    
+}
+
+
+
+
+
+
+
+/* ------------Media Querry--------------- */
+@media only screen and (max-width: 480px) {
+    /* Adjust styles for even smaller screens here */
+    .about{
+        flex-wrap: wrap;
+        /* height: 0; */
+    }
+
+    .about img{
+        /* width: 100px;
+        height: 50px;/ */
+    }
+
+    .skills{
+        flex-wrap: wrap;
+    }
+
+    .abilities{
+        flex-wrap: wrap;
+        width: 93%;
+        place-items: center; 
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #top{
+        position: absolute;
+    right: 30px;
+    top: 308px;
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 51px;
+    height: 53px;
+    text-align: center;
+    line-height: 75px;
+    }
+
+    #top i{
+        margin-left: 7px;
+    }
+
+   .skills h2{
+    font-size: 1.8rem;
+   }
+
+    .projects{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0;
+        padding-bottom: 22px;
+    }
+    .projects_div1{
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    .engi{
+        width: 90%;
+        margin: 15px auto;
+        /* border: 2px solid black; */
+    }
+
+    
+    .school{
+        width: 100%;
+    }
+
+    .contact{
+        flex-wrap: wrap;
+        /* VERY IMP->jar contact chi height dili asti na tr tyacha content overflow zhala asta. tyamule ektr parent chi height nay dyaychi kinva min-height dyaychi tyamule dynamcially tyachya 
+        child content chya acc te adjust hotat 
+        fakt flex box sathich nahi saglyassathi*/
+    }
+
+    .contact img{
+        width: 316px;
+        height: 323px;
+    }
+
+    .basicinfo{
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+
+    .contact{
+        margin-top: 10px;
+        gap: 23px;
+        width: 95vw;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        /* padding: 30px 10px; */
+    }
+
+    .footer{
+        flex-wrap: wrap;
+    }
+
+    .sks{
+        width: 131px;
+    }
+
+    .contact input{
+        width: 253px;
+        padding: 12px;
+    }
+
+    .contact-info h3{
+        font-size: 13px;
+        margin-top: 7px;
+    }
+    .basicinfo h5{
+        font-size: -1rem;
+        /* margin-top: 7px; */
+    }
+    .contact-info{
+        /* line-height: 14px; */
+    }
+
+    #ft{
+        font-size: 12px;
+    }
+
+    .homes{
+        display: none;
+    }
+    .header{
+        flex-wrap: wrap;
+        min-height: 90vh;
+    }
+    .header h3{
+        font-size: 3rem;
+        margin-left: 10px;
+    }
+    .header h3 p{
+        font-size: 1.8rem;
+        margin-top: 15px;
+    }
+
+
+    .header p {
+        margin-left: 10px;
+        font-size: 1.7rem;
+    }
+    .header button{
+        margin-left: 10px;
+    }
+
+    .links{
+        margin-left: 10px;
+    }
+    #prath{
+        margin-left: 18px;
+    }
+    .navbar{
+        display: flex;
+        height: 55px;
+        justify-content: flex-start;
+    }
+
+    .input i {
+        font-size: 1.3rem;
+    }
+    .basicinfo h3{
+        text-align: center;
+    }
+
+    div .layer{
+        gap: 6px;
+    }
+
+    .layer h4{
+        font-size: 11px;
+    }
+
+    .layer  i{
+        font-size: 1rem;
+    }
+
+    .layer p{
+        font-size: 6px;
+    }
+
+    .butns a {
+        height: 27px;
+        background-color: rgb(255, 255, 255);
+        width: 31px;
+        border-radius: 50%;
+        display: inline-block;
+        line-height: 31px;
+        text-align: center;
+        margin: 0px 19px;
+    }
+    .logo i{
+        display: block;
+        
+    }
+
+    .homes{
+        display: none; 
+         flex-direction: column;
+         position: absolute;
+         justify-content:start;
+        right: 8px;
+        gap: 30px;
+        top: 60px;
+        padding-top: 50px;
+        background-color: #020133;
+        /*   background-color: #241566; */
+        width: 60%;
+        height: 60vh;
+        text-align: center;
+        
+    }
+    .homes a{
+         color: white;
+         font-size: 1.4rem;
+    }
+
+    .exper{
+        width: 87%;
+        padding: 20px;
+        margin-bottom: 50px;
+    }
+
+    .experience{
+        min-height: 50vh;
+        gap: 51px;
+    }
+
+    .contact-us{
+        /* place-items: center; */
+        padding: 0px;
+    }
+
+    .change{
+        /* font-size: 2rem; */
+        font-size: 1.99rem;
+    }
+
+    
+}
