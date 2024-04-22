@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Links</title>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700;800&family=Kanit&family=Roboto:ital,wght@0,500;0,700;0,900;1,500;1,900&display=swap"
+    rel="stylesheet">
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: 'Baloo Bhai 2', sans-serif;
+            background-color: dodgerblue;
+        }
+        .main-cont img{
+             width: 130px;
+             height: 130px;
+             border-radius: 50%;
+        }
+        .images img{
+            height: 50px;
+            width: 50px;
+
+        }
+
+        .images{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            
+            
+            
+        }
+        .images a{
+            /* border: 2px solid black; */
+            border-radius: 30px;
+            width: 60%;
+            padding: 1px;
+            /* i have given display:flex to its parent so it will take width acc to content, but here i have set 70%, THIS IS IMP */
+             display: flex;
+             /* justify-content: center; */
+             align-items: center;
+             background-color: white;
+             /* text-align: center; */
+             /* justify-content: space-between; */
+             text-decoration: none;
+             box-shadow: 0px 5px 10px rgba(7, 0, 9, 0.8);
+             transition: all;
+             transition: transform 0.4s ease;
+          
+        }
+        .images a:hover{
+            transform: scale(1.07);
+        }
+        .images a span {
+            text-align: center;
+            margin: 0 auto; /*   center the element vertically  */
+            font-size: 1.3rem;
+            color: black;
+           
+        }
+        #cont{
+            text-align: center;
+            margin-top: 15px;
+            color: #FFFFFF;
+            font-size: 1.1rem;
+        }
+
+        .info{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 30px;
+            margin-top: 50px;
+        }
+
+        .info h1{
+            color: #3C0753;
+            /* color: orange; */
+            font-weight: 800;
+            /* font-family: 'Poppins', sans-serif; */
+        }
+        .info h4{
+            color: #FFFFFF;
+            font-size: 1.1rem;
+        }
+
+
+        @media only screen and (max-width: 480px) {
+            .images a{
+                width: 80%;
+            }
+        }
+
+      
+    </style>
+</head>
+<body>
+
+    <div class="main-cont">
+            <div class="info">
+                 <img src="images/sharayu.jpg" alt="">
+                 <h1>Sharayu Asalkar</h1>
+                 <h4>Full-Stack Developer|Problem Solver</h4>
+            </div>
+
+            <div class="images">
+                <a href="https://github.com/SHARU3103"><img src="images/logo-github-128 (1).webp" alt=""><span>Github</span></a>
+                <a href="https://www.linkedin.com/in/sharayu-asalkar-438966225/"><img src="images/Linkedin-128.webp"
+                        alt=""><span>Linked IN</span></a>
+               
+
+               
+                <a href="https://www.instagram.com/sharu_asalkar31/"><img src="images/isnta.webp" alt=""><span>Instagram</span></a>
+
+            </div>
+
+            <h3 id="cont">Contact us at:sharayuasalkar@gmail.com</h3>
+    </div>
+    
+</body>
+</html>
